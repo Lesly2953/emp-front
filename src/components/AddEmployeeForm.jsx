@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import { setDetails } from "./store";
 
 const AddEmployeeForm = () => {
-  const api = `https://studb-bck.onrender.com/`;
+  const api = `https://emp-back.onrender.com/db`;
   const dispatch = useDispatch()
 
   const [empid, setEmpId] = useState("");
